@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Jupi jestes na stronie uzytkownika!</h2>
+	<h2>User profile!</h2>
+	<form action="/printAll">
+		<br>
+		<h2>Do you want to print them all:</h2>
+		<br>
+		<input type="submit" value="print all"/>
+	</form>
 </body>
 </html>

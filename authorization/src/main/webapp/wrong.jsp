@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Passwords doesn't match!</h2>
+	<h2>Wrong username or password!</h2>
+	<form action="/index.jsp">
+		<br>
+		<h2>Do you want to try again?</h2>
+		<br>
+		<input type="submit" value="sign in"/>
+	</form>
 </body>
 </html>

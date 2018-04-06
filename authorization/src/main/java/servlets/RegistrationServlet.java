@@ -29,7 +29,7 @@ public class RegistrationServlet extends HttpServlet{
 		session.setAttribute("conf", user);
 		
 		repository.add(user);
-		response.sendRedirect("success.jsp");
+		response.sendRedirect("userProfile.jsp");
 		
 	}
 	private UserInformation retrieveUserInformationFromRequest(HttpServletRequest request) {
